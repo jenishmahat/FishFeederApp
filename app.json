@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Fishfeeder",
+    "slug": "Fishfeeder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./components/images/icon.png",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./components/images/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "Test.Fishfeeder"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./components/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "Test.Fishfeeder"
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./components/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "@react-native-firebase/app",
+      "@react-native-firebase/auth"
+    ],
+    "experiments": {
+      "typedRoutes": true
+    },
+    "extra": {
+      "router": {
+        "origin": false
+      },
+      "eas": {
+        "projectId": "9a0a2341-4955-4c96-ba67-0fef1453479e"
+      }
+    }
+  }
+}
